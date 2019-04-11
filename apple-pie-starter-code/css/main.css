@@ -1,0 +1,62 @@
+h1, body, html, main {
+    margin: 0;
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.box-apple-pie {
+    margin: 6% 8%;
+}
+.title-apple-pie h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-weight: lighter;
+    font-size: 4em;
+    letter-spacing: 5px;
+}
+.title-apple-pie {
+    margin: 0 auto;
+    background-image: url(../images/apple-pie.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.text-apple-pie p{
+    text-align: center;
+    align-content: stretch;
+    font-size: 1.5em;
+
+}
+.text-apple-pie img {
+    display: flex;
+    margin: 0 auto;
+}
+.line{
+    height: 1px; 
+    background-color:rgb(84, 78, 78);
+}
+.ingredients-apple-pie h2 {
+    font-weight: lighter;
+}
+.ingredients-apple-pie ul {
+    list-style-type: none;
+    color: rgb(84, 78, 78);
+}
+.ingredients-apple-pie ul li{
+    font-size: 1.2em;
+}
+.ingredients-apple-pie img{
+    display: flex;
+    margin: 0 auto;
+}
+.directions-apple-pie h2{
+    font-weight: lighter;
+}
+.directions-apple-pie p {
+    padding-left: 40px;
+    font-size: 1.2em;
+    color: rgb(84, 78, 78);
+}

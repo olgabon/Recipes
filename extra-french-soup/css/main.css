@@ -1,0 +1,67 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.title-french-onion-soup {
+  background-image: url(../images/soup.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.title-french-onion-soup h1{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+  font-weight: lighter;
+  font-size: 4em;
+  letter-spacing: 5px;
+}
+.box-french-onion-soup{
+  margin: 6% 8%;
+}
+.text-french-onion-soup p{
+  text-align: center;
+  align-content: stretch;
+  font-size: 1.5em;
+}
+.text-french-onion-soup img{
+  display: flex;
+  margin: 0 auto;
+}
+.line {
+  height: 1px; 
+  background-color:rgb(84, 78, 78);
+}
+.ingredients-french-onion-soup h2{
+  font-weight: lighter;
+}
+.ingredients-french-onion-soup ul {
+  list-style-type: none;
+  color: rgb(84, 78, 78);
+}
+.ingredients-french-onion-soup img{
+  display: flex;
+  margin: 0 auto;
+}
+.ingredients-french-onion-soup ul li{
+  font-size: 1.2em;
+}
+.directions-french-onion-soup h2{
+  font-weight: lighter;
+}
+.directions-french-onion-soup p {
+  padding-left: 40px;
+  font-size: 1.2em;
+  color: rgb(84, 78, 78);
+}
+
+
+
+
+
